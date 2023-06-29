@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TP3 KAREN RAMIREZ</title>
+    
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Inter:wght@700&family=Playfair+Display:ital,wght@0,600;1,400&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;1,400&family=Inter:wght@500&family=Playfair+Display:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fancybox.css">
+    
+</head>
+
+<body>
+		<nav>
+			<div class="dvFlex">
+				<a href="#"><img src="img/Logodelish-01-01.svg" alt="Delish" id="logo"></a>
+			<ul class="menu">
+				<li><a href="#">INICIO</a></li>
+				<li><a href="#NOSOTROS">NOSOTROS</a></li>
+				<li><a href="#VARIEDADES">VARIEDADES</a></li>
+				<li><a href="#PRODUCTOS">PRODUCTOS</a></li>
+				<li><a href="#PROMOCIONES">PROMOCIONES</a></li>
+				<li><a href="#CONTACTO">CONTACTO</a></li>
+				<li><a href="#"><img src="img/anadir-al-carrito.png" alt="Carrito"></a></li>
+			</ul>
+			</div>
+		</nav>
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slider-1" src="img/trozos-chocolate-negro.jpg" alt="">
+                <img id="slider-2" src="img/closeup-foto-caramelo-chocolate-aislado.jpg" alt="">
+                <img id="slider-3" src="img/pastel-frutas-postre-chocolate.jpg" alt="">
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="delish">
+            <h1>Querés probar un buen chocolate?</h1>
+            
+            <p>Delish Chocolates es pasión y calidad <strong>“excelencia desde el origen”</strong>,con la mejor semilla de cacao.<br>Pero no hace falta que te lo contemos, 
+                lo pueden saborear en cada bocado o ver en cada detalle, día tras día<br>de <em>generación en generación.</em>
+            </p>
+            <a class="botonVer" href="#PRODUCTOS">VER PRODUCTOS</a>
+        </div>
+    </header>
+    <section id="NOSOTROS">
+        <div class="contenedor" id="container">
+            <div class="titulo">
+                <h2 class="tituloNosotros">NUESTRA HISTORIA</h2>
+                <p class="historia">
+                Cuando nuestro abuelo Rodolfo Taborda llegó de Italia,trajo su pasión y conocimiento sobre el chocolate artesanal.<br>En 1965 instaló la primera chocolatería en Bariloche y la llamo Delish.<br>Vecinos y viajeros llegaban al lugar y pedían ese chocolate que les conquistaba los corazones y paladares.
+                 Así se empezó a escribir esta historia,con ganas de compartir calidad.<br>Y el más rico de los sabores,con el correr de los años, la tradición y el gusto por los productos artesanales continuó en la familia Taborda.<br>Desde 1996 Emmanuel, seguidos de Mariana y Roberto, aportaron recetas frescas e innovadoras y destacaron aún más la calidad de los chocolates. El resultado fue que, en poco tiempo, la chocolatería Delish se convirtió en la mejor del país.			
+                </p>
+            </div>
+            <div class="imgcacao">
+                <img class="foto" src="img/NosotrosChocolate.png" alt="historia"></div>
+        </div>
+    </section>
+    
+    <section class="contenedor" id="VARIEDADES">
+        <h2>VARIEDADES DE CHOCOLATES</h2>
+        <div class="TIPOS">
+            <article id="Chocolate con leche" class="card">
+                <img src="img/ChocolateLeche.png" alt="Chocolate con leche">
+                <h3>Chocolate con leche</h3>
+                <p>Su menor contenido en cacao y por la adición de leche en polvo,es lo que le da suavidad y blandura.</p>
+                <a class="btnLeche" href="#">Más información</a>
+            </article>
+
+            <article id="Chocolate blanco" class="card">
+                <img src="img/ChocolateBlanco.png" alt="Chocolate blanco">
+                <h3>Chocolate blanco</h3>
+                <p>Solamente utiliza la manteca de cacao de ahí su color,a la cual se le agrega azúcar y leche						
+                </p>
+                <a class="btnBlanco" href="#">Más información</a>
+            </article>
+
+            <article id="Chocolate amargo" class="card">
+                <img src="img/ChocolateAmargo.png" alt="Chocolate amargo">
+                <h3>Chocolate amargo</h3>
+                <p>
+                Se elabora con manteca de cacao,azúcar,y vainillina.Se caracteriza por tener poco azúcar.				
+                </p>
+                <a class="btnAmargo" href="#">Más información</a>
+            </article>
+        </div>
+</section>
+<section class="galeriaProductos" id="PRODUCTOS">
+    <h2>CONOCE NUESTROS PRODUCTOS</h2>
+    <div class="productos">
+        <a data-fancybox="gallery" href="img/ChocolateCobertura.png" data-caption="Cobertura De Chocolate ">
+            <img src="img/ChocolateCobertura.png" alt="cobertura-chocolate">
+        </a>
+
+        <a href="img/CajasBombones.jpg" data-fancybox="gallery" data-caption="Caja De Bombones">
+            <img src="img/CajasBombones.jpg" alt="caja-bombones">
+        </a>
+
+        <a href="img/BolitasChocolate-01.jpg" data-fancybox="gallery" data-caption="Bolitas De Chocolate">
+            <img src="img/BolitasChocolate-01.jpg" alt="bolitas-chocolate">
+        </a>
+
+        <a href="img/Barras.jpg" data-fancybox="gallery" data-caption="Barras De Diferentes Sabores">
+            <img src="img/Barras.jpg" alt="barras-sabores">
+        </a>
+
+        <a href="img/CajaDulces.jpg" data-fancybox="gallery" data-caption="Caja Con Dulces">
+            <img src="img/CajaDulces.jpg" alt="caja-dulces">
+        </a>
+
+        <a href="img/Cookie-01.jpg" data-fancybox="gallery" data-caption="Cookies">
+            <img src="img/Cookie-01.jpg" alt="cookie">
+        </a>
+    </div>
+</section>
+<section class="contenedor-ofertas" id="PROMOCIONES">
+    <h2>PROMOCIONES</h2>
+    <div class="promos">
+        <article id="combo1" class="card">
+            <img src="img/CajasBombones.jpg" alt="Bomones">
+            <h3>Caja De Bombones
+            </h3>
+            <p>$4000</p>
+            <a class="btnComprar" href="#">COMPRAR</a>
+        </article>
+
+        <article id="combo2" class="card">
+            <img src="img/BolitasChocolate-01.jpg" alt="bolitas chocolate" class="bolitas">
+            <h3>Bolitas De Chocolate</h3>
+            <p>
+            $3000
+            </p>
+            <a class="btnComprar" href="#">COMPRAR</a>
+        </article>
+
+        <article id="combo3" class="card">
+            <img src="img/CajaDulces.jpg" alt="Caja dulces" class="dulce">
+            <h3>Caja Dulces</h3>
+            <p>
+            $3500
+            </p>
+            <a class="btnComprar" href="#">COMPRAR</a>
+        </article>
+    </div>
+    <div><a class="btnVerPromos" href="#">VER MÁS COMBOS</a></div>
+</section>
+
+
+
+<section class="form-contenedor" id="CONTACTO">
+    <div class="formulario">
+        <h2>CONTÁCTANOS</h2>
+        <form action="consulta" method="post">
+            <div class="espaciado">
+                <label for="nombre-y-apellido">Nombre y apellido:</label>
+                <input type="text" name="nombre-y-apellido" id="nombre-y-apellido" required="" placeholder="Ingresa tu nombre y apellido*">
+            </div>
+            <div class="espaciado">
+                <label for="correo-electronico">Correo electrónico:</label>
+                <input type="email" name="correo-electronico" id="correo-electronico" required="" placeholder="Ingresa tu correo electrónico*">
+            </div>
+            <div class="espaciado">
+                <label for="escribe-tu-consulta">Escribe tu consulta:</label>
+                <textarea name="escribe-tu-consulta" id="escribe-tu-consulta" cols="30" rows="10" placeholder="Ingresa tu consulta..."></textarea>
+            </div>
+            <div class="botones">
+                <button type="submit" class="enviar">Enviar</button>
+                <button type="reset" class="borrar">Borrar</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer>
+            <div class="end">
+                <p>Diseñado por karen Ramirez © Copyright Delish - 2023. Todos los derechos reservados.</p>
+                <ul class="footer">
+                    <li><a href="https://www.instagram.com/" target="new" title="Instagram"><img src="img/instagram_white.png" alt="instagram"></a></li>
+                    <li><a href="https://twitter.com/" target="new" title="Twitter"><img src="img/twitter_white.png" alt="twitter"></a></li>
+                    <li><a href="https://www.facebook.com/" target="new" title="Youtube"><img src="img/facebook_white.png" alt="facebook"></a></li>
+                </ul>
+            </div>
+        </footer>
+    
+        <script src="fancybox.umd.js.descarga"></script>
+        
+
+</body>
+
+
+</html>
